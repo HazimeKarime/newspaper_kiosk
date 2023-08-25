@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Periódicos</title>
+    <style>
+        body{
+            background-color: rgb(201, 245, 249);
+            font-family: sans-serif;   
+        }
+        h1{
+            color: rgb(90, 50, 50);
+            margin-left: auto;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #newsFrame{
+            margin-left: 10%;
+            
+        }
+        #but{
+            margin-left: 47%;
+            color: rgb(90, 72, 50);
+        }
+    </style>
+</head>
+<body>
+    <h1>NEWSPAPERS</h1>
+    <iframe id="newsFrame" src="https://www.abc.com.py" width="80%" height="600"></iframe>
+    <br>
+    <br>
+    <br>
+    <div id="but">
+        <button onclick="prev()">Anterior</button>
+        <button onclick="next()">Siguiente</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
